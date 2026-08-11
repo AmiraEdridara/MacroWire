@@ -1,0 +1,12 @@
+date,label,type,detail,impact,title,is_fed,is_macro
+2026-05-27,CPI m/m,cpi,CPI m/m,High,CPI m/m,False,True
+2026-05-27,CPI y/y,cpi,CPI y/y,High,CPI y/y,False,True
+2026-05-27,Official Cash Rate,macro,Official Cash Rate,High,Official Cash Rate,False,True
+2026-05-27,RBNZ Monetary Policy Statement,macro,RBNZ Monetary Policy Statement,High,RBNZ Monetary Policy Statement,False,True
+2026-05-27,RBNZ Press Conference,macro,RBNZ Press Conference,High,RBNZ Press Conference,False,True
+2026-05-27,RBNZ Rate Statement,macro,RBNZ Rate Statement,High,RBNZ Rate Statement,False,True
+2026-05-27,Trimmed Mean CPI m/m,cpi,Trimmed Mean CPI m/m,High,Trimmed Mean CPI m/m,False,True
+2026-05-28,Core PCE Price Index m/m,cpi,Core PCE Price Index m/m,High,Core PCE Price Index m/m,False,True
+2026-05-28,Prelim GDP q/q,gdp,Prelim GDP q/q,High,Prelim GDP q/q,False,True
+2026-05-29,BOE Gov Bailey Speaks,macro,BOE Gov Bailey Speaks,High,BOE Gov Bailey Speaks,False,True
+2026-05-29,GDP m/m,gdp,GDP m/m,High,GDP m/m,False,True

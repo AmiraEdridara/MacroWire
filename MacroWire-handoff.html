@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MacroWire — Project Handoff for AI</title>
+  <style>
+    :root {
+      --paper: #faf6ef;
+      --ink: #1a1814;
+      --ink3: #6e685f;
+      --rule: #d9d2c4;
+      --accent: #8b3a1e;
+      --blue: #4a6fa5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 24px 64px;
+      max-width: 920px;
+      margin-inline: auto;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    h1 { font-size: 2.2rem; margin: 0 0 0.25rem; letter-spacing: -0.02em; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; border-bottom: 2px solid var(--ink); padding-bottom: 0.35rem; }
+    h3 { font-size: 1rem; margin: 1.25rem 0 0.5rem; font-family: system-ui, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); }
+    p, li { color: var(--ink); }
+    .tagline { font-style: italic; color: var(--ink3); margin-bottom: 1.5rem; }
+    code, pre { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.88em; }
+    pre {
+      background: #f3ede0;
+      border: 1px solid var(--rule);
+      padding: 14px 16px;
+      overflow-x: auto;
+      border-radius: 2px;
+    }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.92rem; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    th { font-family: system-ui, sans-serif; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); }
+    ul { padding-left: 1.25rem; }
+    .note {
+      border-left: 3px solid #b8860b;
+      background: #f3ede0;
+      padding: 10px 14px;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    .meta { font-family: system-ui, sans-serif; font-size: 0.75rem; color: var(--ink3); text-transform: uppercase; letter-spacing: 0.1em; }
+  </style>
+</head>
+<body>
+
+  <p class="meta">Project handoff · MacroWire · May 2026</p>
+  <h1>MacroWire</h1>
+  <p class="tagline">The Macro Markets Reader — Kalshi macro prediction market analytics dashboard</p>
+
+  <div class="note">
+    This file is a self-contained brief for another AI. The live app is a React SPA; the entry HTML shell is at
+    <code>index.html</code> and mounts into <code>&lt;div id="root"&gt;</code>. Data comes from local parquet snapshots via a FastAPI backend, not live Kalshi on page load.
+  </div>
+
+  <h2>What it is</h2>
+  <p>
+    Read-only research dashboard showing Kalshi contract prices as implied probabilities (YES %),
+    macro release calendar context, odds charts, mark-to-market P&amp;L, regime-change detection,
+    and per-series volatility analytics. Newspaper/editorial visual design (cream paper, serif headlines).
+  </p>
+
+  <h2>How to run</h2>
+  <pre>cd backend && .venv/bin/uvicorn app.main:app --reload --port 8000
+npm run dev   # http://127.0.0.1:5173 — Vite proxies /api to port 8000</pre>
+
+  <p>Data files (default): <code>~/files/kalshi_markets.parquet</code>, <code>kalshi_candlesticks.parquet</code>, <code>forexfactory_events.parquet</code>, <code>finnhub_news.parquet</code></p>
+
+  <h2>Pages (hash routing)</h2>
+  <table>
+    <thead><tr><th>Page</th><th>URL hash</th><th>Contents</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Markets</strong></td>
+        <td><code>#/</code> or empty</td>
+        <td>
+          3-column layout: contract list (filter by CPI/Fed/Labour/Growth) · main chart + calendar strip + mark-to-market + regime changes · news/alerts sidebar.
+          YES implied odds line chart with volume bars, event dashed lines (FOMC/CPI/NFP/PCE), optional spread overlay.
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Volatility</strong></td>
+        <td><code>#volatility</code></td>
+        <td>
+          Dedicated page: pick a <em>series</em> (not all contracts at once), sort contracts by 14d σ high→low or low→high,
+          rolling volatility chart per selected contract, table of contracts in that series with vol / YES / volume.
+          Highlights most volatile contract in the series.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Key features</h2>
+
+  <h3>Market view</h3>
+  <ul>
+    <li>Filterable contract list grouped by series; threshold labels (e.g. T3.9 → ≥ 3.9%)</li>
+    <li>Days to expiry, bid/ask/spread/volume snapshot from parquet</li>
+    <li>YES close probability timeline with macro event vertical lines</li>
+  </ul>
+
+  <h3>Mark-to-market panel</h3>
+  <ul>
+    <li>Buy YES/NO, position size, entry date picker</li>
+    <li>Entry at <strong>ask</strong> on entry day; exit at <strong>bid</strong> today (open) or $1/$0 at settlement (closed)</li>
+    <li>P&amp;L in points, %, and dollar terms</li>
+  </ul>
+
+  <h3>Regime changes</h3>
+  <ul>
+    <li>Flags single-day moves ≥ 8pp (absolute, not vol-normalized)</li>
+    <li>Tags nearest calendar release within 2 days</li>
+  </ul>
+
+  <h3>Volatility</h3>
+  <ul>
+    <li>14-day standard deviation of daily <code>close_prob</code> changes, in percentage points</li>
+    <li>Per-contract rolling σ chart; series-filtered ranking table</li>
+  </ul>
+
+  <h3>Calendar &amp; news</h3>
+  <ul>
+    <li>ForexFactory high-impact events strip</li>
+    <li>Finnhub headlines in right sidebar with move alerts</li>
+  </ul>
+
+  <h2>Backend API routes</h2>
+  <table>
+    <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><code>GET /api/markets</code></td><td>Filterable market list (status, category, search)</td></tr>
+      <tr><td><code>GET /api/markets/{ticker}</code></td><td>Single market detail</td></tr>
+      <tr><td><code>GET /api/candles/{ticker}</code></td><td>Daily OHLC probability series</td></tr>
+      <tr><td><code>GET /api/calendar</code></td><td>Macro release calendar</td></tr>
+      <tr><td><code>GET /api/news</code></td><td>Finnhub headlines</td></tr>
+      <tr><td><code>GET /api/breaks</code></td><td>Regime break detection</td></tr>
+      <tr><td><code>GET /api/analytics/volatility?series=&amp;limit=&amp;window=</code></td><td>Vol ranking; optional series filter</td></tr>
+      <tr><td><code>GET /api/analytics/correlation</code></td><td>Cross-market correlation matrix</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Frontend file map</h2>
+  <table>
+    <thead><tr><th>Path</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td><code>index.html</code></td><td>Vite entry shell</td></tr>
+      <tr><td><code>src/App.jsx</code></td><td>Root: data loading, hash routing, page switch</td></tr>
+      <tr><td><code>src/pages/MarketsPage.jsx</code></td><td>Main dashboard layout</td></tr>
+      <tr><td><code>src/pages/VolatilityPage.jsx</code></td><td>Volatility series page</td></tr>
+      <tr><td><code>src/components/Masthead.jsx</code></td><td>Header + logo + current contract</td></tr>
+      <tr><td><code>src/components/AppNav.jsx</code></td><td>Markets / Volatility tabs</td></tr>
+      <tr><td><code>src/components/MarketList.jsx</code></td><td>Left sidebar contract browser</td></tr>
+      <tr><td><code>src/components/OddsChart.jsx</code></td><td>YES implied Recharts chart</td></tr>
+      <tr><td><code>src/components/VolatilityChart.jsx</code></td><td>Rolling σ line chart</td></tr>
+      <tr><td><code>src/components/ReturnsPanel.jsx</code></td><td>Mark-to-market P&amp;L</td></tr>
+      <tr><td><code>src/components/BreaksPanel.jsx</code></td><td>Regime change list</td></tr>
+      <tr><td><code>src/components/NewsAlerts.jsx</code></td><td>Headlines + alerts</td></tr>
+      <tr><td><code>src/lib/data.js</code></td><td>API fetch, formatMarketLabel, P&amp;L, breaks, vol helpers</td></tr>
+      <tr><td><code>src/lib/brand.js</code></td><td>APP_NAME = MacroWire</td></tr>
+      <tr><td><code>src/index.css</code></td><td>Layout grid, editorial tokens</td></tr>
+      <tr><td><code>backend/app/econprob_api.py</code></td><td>Parquet API router</td></tr>
+      <tr><td><code>backend/app/parquet_load.py</code></td><td>Parquet loaders</td></tr>
+      <tr><td><code>public/favicon.svg</code></td><td>Logo: columns + odds line, transparent bg</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Design tokens</h2>
+  <pre>--paper: #faf6ef    --ink: #1a1814    --accent: #8b3a1e (rust)
+--blue: #4a6fa5     --green: #4a6b3f   --gold: #b8860b
+Fonts: Newsreader (serif), IBM Plex Sans, IBM Plex Mono</pre>
+
+  <h2>Important product decisions</h2>
+  <ul>
+    <li>Chart shows YES <strong>close</strong> (<code>close_prob</code>); event lines are dashed vertical reference lines at release dates</li>
+    <li>Mark-to-market uses ask-in / bid-out for tradable P&amp;L insight, not close-to-close</li>
+    <li>Regime threshold is absolute ±8pp day-over-day, not relative to rolling vol</li>
+    <li>Volatility page filters by <strong>series</strong> so users compare bins within one event, not 2000 contracts at once</li>
+    <li>Settled-market realized P&amp;L needs a <code>result</code> column in parquet when available; otherwise inferred from final candle</li>
+  </ul>
+
+  <h2>Production build</h2>
+  <pre>npm run build   → dist/index.html + dist/assets/*.js, *.css</pre>
+  <p>Built shell references bundled assets; still requires backend API for data unless mocked.</p>
+
+  <h2>Source entry HTML (index.html)</h2>
+  <pre>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;link rel="icon" type="image/svg+xml" href="/favicon.svg" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;meta name="description" content="MacroWire — Kalshi macro markets, odds, and quantitative overlays." /&gt;
+    &lt;title&gt;MacroWire&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+    &lt;script type="module" src="/src/main.jsx"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+</body>
+</html>

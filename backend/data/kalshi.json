@@ -1,0 +1,4804 @@
+{
+  "markets": [
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "ticker": "KXECONSTATCPI-26MAY-T1.0",
+      "label": "CPI month-over-month in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXECONSTATCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the CPI month-over-month is exactly 1.0% in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:29:00Z",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.9",
+      "ticker": "KXECONSTATCPI-26MAY-T0.9",
+      "label": "CPI month-over-month in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXECONSTATCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the CPI month-over-month is exactly 0.9% in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:29:00Z",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.05,
+      "spread": 4.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "ticker": "KXECONSTATCPI-26MAY-T0.8",
+      "label": "CPI month-over-month in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXECONSTATCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the CPI month-over-month is exactly 0.8% in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:29:00Z",
+      "prob": 0.01,
+      "bid": 0.01,
+      "ask": 0.03,
+      "spread": 1.9999999999999998,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "ticker": "KXECONSTATCPI-26MAY-T0.7",
+      "label": "CPI month-over-month in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXECONSTATCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the CPI month-over-month is exactly 0.7% in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:29:00Z",
+      "prob": 0.14,
+      "bid": 0.14,
+      "ask": 0.16,
+      "spread": 1.9999999999999991,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "ticker": "KXECONSTATCPI-26OCT-T0.6",
+      "label": "CPI month-over-month in Oct 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXECONSTATCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the CPI month-over-month is exactly 0.6% in Oct 2026, then the market resolves to Yes.",
+      "resolution": "2026-11-10T13:29:00Z",
+      "prob": 0.09,
+      "bid": 0.0,
+      "ask": 1.0,
+      "spread": 100.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "ticker": "KXECONSTATCPI-26OCT-T0.5",
+      "label": "CPI month-over-month in Oct 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXECONSTATCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the CPI month-over-month is exactly 0.5% in Oct 2026, then the market resolves to Yes.",
+      "resolution": "2026-11-10T13:29:00Z",
+      "prob": 0.12,
+      "bid": 0.0,
+      "ask": 1.0,
+      "spread": 100.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "ticker": "KXCPI-26MAY-T-0.3",
+      "label": "Will CPI rise more than -0.3% in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the Consumer Price Index (CPI) increases by more than -0.3% (single-decimal) in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:25:00Z",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "ticker": "KXCPI-26MAY-T-0.2",
+      "label": "Will CPI rise more than -0.2% in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the Consumer Price Index (CPI) increases by more than -0.2% (single-decimal) in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:25:00Z",
+      "prob": 0.99,
+      "bid": 0.95,
+      "ask": 1.0,
+      "spread": 5.000000000000004,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "ticker": "KXCPI-26MAY-T1.0",
+      "label": "Will CPI rise more than 1.0% in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the Consumer Price Index (CPI) increases by more than 1.0% (single-decimal) in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:25:00Z",
+      "prob": 0.04,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "ticker": "KXCPI-26MAY-T0.9",
+      "label": "Will CPI rise more than 0.9% in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the Consumer Price Index (CPI) increases by more than 0.9% (single-decimal) in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:25:00Z",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "ticker": "KXCPI-26MAY-T0.8",
+      "label": "Will CPI rise more than 0.8% in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the Consumer Price Index (CPI) increases by more than 0.8% (single-decimal) in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:25:00Z",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.04,
+      "spread": 4.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "ticker": "KXCPI-26MAY-T0.7",
+      "label": "Will CPI rise more than 0.7% in May 2026?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPI",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the Consumer Price Index (CPI) increases by more than 0.7% (single-decimal) in May 2026, then the market resolves to Yes.",
+      "resolution": "2026-06-10T12:25:00Z",
+      "prob": 0.09,
+      "bid": 0.0,
+      "ask": 0.09,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "ticker": "KXCPICORE-26JUL-T1.0",
+      "label": "Will CPI Core rise more than 1.0% in July?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPICORE",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for July 2026, as published by the Bureau of Labor Statistics, increases by above 1.0%, then the market resolves to Yes.",
+      "resolution": "2026-08-12T12:25:00Z",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "ticker": "KXCPICORE-26JUL-T0.9",
+      "label": "Will CPI Core rise more than 0.9% in July?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPICORE",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for July 2026, as published by the Bureau of Labor Statistics, increases by above 0.9%, then the market resolves to Yes.",
+      "resolution": "2026-08-12T12:25:00Z",
+      "prob": 0.03,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "ticker": "KXCPICORE-26JUL-T0.8",
+      "label": "Will CPI Core rise more than 0.8% in July?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPICORE",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for July 2026, as published by the Bureau of Labor Statistics, increases by above 0.8%, then the market resolves to Yes.",
+      "resolution": "2026-08-12T12:25:00Z",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.08,
+      "spread": 8.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "ticker": "KXCPICORE-26JUL-T0.7",
+      "label": "Will CPI Core rise more than 0.7% in July?",
+      "category": "Economics",
+      "shelf": "Economics",
+      "seriesTicker": "KXCPICORE",
+      "macroRank": 198,
+      "isMacro": true,
+      "description": "If the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for July 2026, as published by the Bureau of Labor Statistics, increases by above 0.7%, then the market resolves to Yes.",
+      "resolution": "2026-08-12T12:25:00Z",
+      "prob": 0.04,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXPERSONPRESMAM-45",
+      "ticker": "KXPERSONPRESMAM-45",
+      "label": "Will  become President of the United States before 2045?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXPERSONPRESMAM",
+      "macroRank": 13,
+      "isMacro": false,
+      "description": "If Zohran Mamdani becomes President of the United States before Jan 22, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-29T15:00:00Z",
+      "prob": 0.079,
+      "bid": 0.079,
+      "ask": 0.1,
+      "spread": 2.1000000000000005,
+      "volume": 0
+    },
+    {
+      "marketId": "KXPERSONPRESFUENTES-45",
+      "ticker": "KXPERSONPRESFUENTES-45",
+      "label": "Will  become President of the United States before 2045?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXPERSONPRESFUENTES",
+      "macroRank": 13,
+      "isMacro": false,
+      "description": "If Nick Fuentes becomes President of the United States before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-08T15:00:00Z",
+      "prob": 0.11,
+      "bid": 0.12,
+      "ask": 0.15,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXBRUVSEAT-35",
+      "ticker": "KXBRUVSEAT-35",
+      "label": "Will Britain Restoring Underlying Values (\"BRUV\") win a seat in the next U.K. general election?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXBRUVSEAT",
+      "macroRank": 13,
+      "isMacro": false,
+      "description": "If Britain Restoring Underlying Values (\"BRUV\") wins a seat in the House of Commons in the next U.K. general election, then the market resolves to Yes.",
+      "resolution": "2035-01-01T15:00:00Z",
+      "prob": 0.025,
+      "bid": 0.01,
+      "ask": 0.06,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXPRESPARTY-2032-R",
+      "ticker": "KXPRESPARTY-2032-R",
+      "label": "Will the Republican party win the Presidency in 2032?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXPRESPARTY",
+      "macroRank": 13,
+      "isMacro": false,
+      "description": "If a representative of the Republican party is inaugurated as President for the term beginning January 20, 2033, then the market resolves to Yes.",
+      "resolution": "2033-11-02T14:00:00Z",
+      "prob": 0.45,
+      "bid": 0.45,
+      "ask": 0.53,
+      "spread": 8.000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXPRESPARTY-2032-D",
+      "ticker": "KXPRESPARTY-2032-D",
+      "label": "Will the Democratic party win the Presidency in 2032?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXPRESPARTY",
+      "macroRank": 13,
+      "isMacro": false,
+      "description": "If a representative of the Democratic party is inaugurated as President for the term beginning January 20, 2033, then the market resolves to Yes.",
+      "resolution": "2033-11-02T14:00:00Z",
+      "prob": 0.55,
+      "bid": 0.49,
+      "ask": 0.53,
+      "spread": 4.0000000000000036,
+      "volume": 0
+    },
+    {
+      "marketId": "KXLEAVEPOWELLGOV-28JAN31",
+      "ticker": "KXLEAVEPOWELLGOV-28JAN31",
+      "label": "Will Jerome Powell leave Member of the Board of Governors of the Federal Reserve System before Aug 1, 2026?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXLEAVEPOWELLGOV",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If Jerome Powell has either officially announced their intention to leave as Member of the Board of Governors of the Federal Reserve System or has actually left as Member of the Board of Governors of the Federal Reserve System before Jan 31, 2028, then the market resolves to Yes.",
+      "resolution": "2028-01-31T04:59:00Z",
+      "prob": 0.8,
+      "bid": 0.81,
+      "ask": 0.89,
+      "spread": 7.9999999999999964,
+      "volume": 0
+    },
+    {
+      "marketId": "KXLEAVEPOWELLGOV-27JUN01",
+      "ticker": "KXLEAVEPOWELLGOV-27JUN01",
+      "label": "Will Jerome Powell leave Member of the Board of Governors of the Federal Reserve System before Aug 1, 2026?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXLEAVEPOWELLGOV",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If Jerome Powell has either officially announced their intention to leave as Member of the Board of Governors of the Federal Reserve System or has actually left as Member of the Board of Governors of the Federal Reserve System before Jun 1, 2027, then the market resolves to Yes.",
+      "resolution": "2027-06-01T03:59:00Z",
+      "prob": 0.68,
+      "bid": 0.68,
+      "ask": 0.74,
+      "spread": 5.999999999999995,
+      "volume": 0
+    },
+    {
+      "marketId": "KXLEAVEPOWELLGOV-26DEC01",
+      "ticker": "KXLEAVEPOWELLGOV-26DEC01",
+      "label": "Will Jerome Powell leave Member of the Board of Governors of the Federal Reserve System before Aug 1, 2026?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXLEAVEPOWELLGOV",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If Jerome Powell has either officially announced their intention to leave as Member of the Board of Governors of the Federal Reserve System or has actually left as Member of the Board of Governors of the Federal Reserve System before Dec 1, 2026, then the market resolves to Yes.",
+      "resolution": "2026-12-01T04:59:00Z",
+      "prob": 0.38,
+      "bid": 0.39,
+      "ask": 0.44,
+      "spread": 4.999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXLEAVEPOWELLGOV-26NOV01",
+      "ticker": "KXLEAVEPOWELLGOV-26NOV01",
+      "label": "Will Jerome Powell leave Member of the Board of Governors of the Federal Reserve System before Aug 1, 2026?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXLEAVEPOWELLGOV",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If Jerome Powell has either officially announced their intention to leave as Member of the Board of Governors of the Federal Reserve System or has actually left as Member of the Board of Governors of the Federal Reserve System before Nov 1, 2026, then the market resolves to Yes.",
+      "resolution": "2026-11-01T04:59:00Z",
+      "prob": 0.25,
+      "bid": 0.27,
+      "ask": 0.36,
+      "spread": 8.999999999999996,
+      "volume": 0
+    },
+    {
+      "marketId": "KXLEAVEPOWELLGOV-26OCT01",
+      "ticker": "KXLEAVEPOWELLGOV-26OCT01",
+      "label": "Will Jerome Powell leave Member of the Board of Governors of the Federal Reserve System before Aug 1, 2026?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXLEAVEPOWELLGOV",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If Jerome Powell has either officially announced their intention to leave as Member of the Board of Governors of the Federal Reserve System or has actually left as Member of the Board of Governors of the Federal Reserve System before Oct 1, 2026, then the market resolves to Yes.",
+      "resolution": "2026-10-01T03:59:00Z",
+      "prob": 0.25,
+      "bid": 0.25,
+      "ask": 0.27,
+      "spread": 2.0000000000000018,
+      "volume": 0
+    },
+    {
+      "marketId": "KXLEAVEPOWELLGOV-26SEP01",
+      "ticker": "KXLEAVEPOWELLGOV-26SEP01",
+      "label": "Will Jerome Powell leave Member of the Board of Governors of the Federal Reserve System before Aug 1, 2026?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXLEAVEPOWELLGOV",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If Jerome Powell has either officially announced their intention to leave as Member of the Board of Governors of the Federal Reserve System or has actually left as Member of the Board of Governors of the Federal Reserve System before Sep 1, 2026, then the market resolves to Yes.",
+      "resolution": "2026-09-01T03:59:00Z",
+      "prob": 0.2,
+      "bid": 0.2,
+      "ask": 0.22,
+      "spread": 1.9999999999999991,
+      "volume": 0
+    },
+    {
+      "marketId": "KXFEDEND-29-JAN20",
+      "ticker": "KXFEDEND-29-JAN20",
+      "label": "Will Trump end the Federal Reserve before Jan 20, 2029?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXFEDEND",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If the Federal Reserve System has ended before January 20, 2029, then the market resolves to Yes.",
+      "resolution": "2029-01-20T15:00:00Z",
+      "prob": 0.11,
+      "bid": 0.07,
+      "ask": 0.11,
+      "spread": 3.9999999999999996,
+      "volume": 0
+    },
+    {
+      "marketId": "KXFEDEND-27-JAN01",
+      "ticker": "KXFEDEND-27-JAN01",
+      "label": "Will Trump end the Federal Reserve before Jan 1, 2027?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXFEDEND",
+      "macroRank": 3,
+      "isMacro": false,
+      "description": "If the Federal Reserve System has ended before January 1, 2027, then the market resolves to Yes.",
+      "resolution": "2027-01-01T15:00:00Z",
+      "prob": 0.03,
+      "bid": 0.002,
+      "ask": 0.031,
+      "spread": 2.9,
+      "volume": 0
+    },
+    {
+      "marketId": "KXELONMARS-99",
+      "ticker": "KXELONMARS-99",
+      "label": "Will Elon Musk visit Mars before Aug 1, 2099?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXELONMARS",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Elon Musk visits Mars before the earlier of his death or Aug 1, 2099, then the market resolves to Yes.",
+      "resolution": "2099-08-01T04:59:00Z",
+      "prob": 0.09,
+      "bid": 0.08,
+      "ask": 0.09,
+      "spread": 0.9999999999999996,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEWPOPE-70-PPAR",
+      "ticker": "KXNEWPOPE-70-PPAR",
+      "label": "Who will the next Pope be?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXNEWPOPE",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Pietro Parolin becomes the first person elected Pope before Jan 1, 2070, then the market resolves to Yes.",
+      "resolution": "2070-01-01T15:00:00Z",
+      "prob": 0.05,
+      "bid": 0.05,
+      "ask": 0.056,
+      "spread": 0.5999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEWPOPE-70-MZUP",
+      "ticker": "KXNEWPOPE-70-MZUP",
+      "label": "Who will the next Pope be?",
+      "category": "Politics",
+      "shelf": "Politics",
+      "seriesTicker": "KXNEWPOPE",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Matteo Zuppi becomes the first person elected Pope before Jan 1, 2070, then the market resolves to Yes.",
+      "resolution": "2070-01-01T15:00:00Z",
+      "prob": 0.034,
+      "bid": 0.034,
+      "ask": 0.04,
+      "spread": 0.5999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXWARMING-50",
+      "ticker": "KXWARMING-50",
+      "label": "Will the world pass 2 degrees Celsius over pre-industrial levels before 2050?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXWARMING",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the annual global mean surface temperature anomaly has reached or exceeded +2.0\u00b0C above pre-industrial levels (1850-1900 average) in any calendar year before Jan 1, 2050, then the market resolves to Yes.",
+      "resolution": "2050-01-01T04:59:00Z",
+      "prob": 0.76,
+      "bid": 0.77,
+      "ask": 0.8,
+      "spread": 3.0000000000000027,
+      "volume": 0
+    },
+    {
+      "marketId": "KXMARSVRAIL-50",
+      "ticker": "KXMARSVRAIL-50",
+      "label": "Will a human land on Mars before California starts high-speed rail?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXMARSVRAIL",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If a human lands on Mars before California starts its high speed rail service for the public before Jan 1, 2050, then the market resolves to Yes.",
+      "resolution": "2050-01-01T04:59:00Z",
+      "prob": 0.29,
+      "bid": 0.28,
+      "ask": 0.33,
+      "spread": 4.999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXERUPTSUPER-0-50JAN01",
+      "ticker": "KXERUPTSUPER-0-50JAN01",
+      "label": "When will a supervolcano next erupt?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXERUPTSUPER",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If a supervolcano erupts before Jan 1, 2050, then the market resolves to Yes.",
+      "resolution": "2050-01-01T04:59:00Z",
+      "prob": 0.281,
+      "bid": 0.28,
+      "ask": 0.29,
+      "spread": 0.9999999999999953,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCOLONIZEMARS-50",
+      "ticker": "KXCOLONIZEMARS-50",
+      "label": "Will humans colonize Mars before 2050?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXCOLONIZEMARS",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If humans have a self-sufficient colony of at least 10 people reside on Mars for at least one Earth year before Jan 1, 2050, then the market resolves to Yes.",
+      "resolution": "2050-01-01T04:59:00Z",
+      "prob": 0.194,
+      "bid": 0.19,
+      "ask": 0.194,
+      "spread": 0.40000000000000036,
+      "volume": 0
+    },
+    {
+      "marketId": "KXXISUCCESSOR-45JAN01-MXIN",
+      "ticker": "KXXISUCCESSOR-45JAN01-MXIN",
+      "label": "Will Ma Xingrui become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXXISUCCESSOR",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Ma Xingrui is announced as the first new non-interim leader of the Chinese Communist Party (CCP) before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-01T04:59:00Z",
+      "prob": 0.01,
+      "bid": 0.001,
+      "ask": 0.01,
+      "spread": 0.9000000000000001,
+      "volume": 0
+    },
+    {
+      "marketId": "KXXISUCCESSOR-45JAN01-ZGUO",
+      "ticker": "KXXISUCCESSOR-45JAN01-ZGUO",
+      "label": "Will Zhang Guoqing become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXXISUCCESSOR",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Zhang Guoqing is announced as the first new non-interim leader of the Chinese Communist Party (CCP) before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-01T04:59:00Z",
+      "prob": 0.002,
+      "bid": 0.001,
+      "ask": 0.01,
+      "spread": 0.9000000000000001,
+      "volume": 0
+    },
+    {
+      "marketId": "KXXISUCCESSOR-45JAN01-HLIF",
+      "ticker": "KXXISUCCESSOR-45JAN01-HLIF",
+      "label": "Will He Lifeng become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXXISUCCESSOR",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If He Lifeng is announced as the first new non-interim leader of the Chinese Communist Party (CCP) before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-01T04:59:00Z",
+      "prob": 0.03,
+      "bid": 0.002,
+      "ask": 0.01,
+      "spread": 0.8,
+      "volume": 0
+    },
+    {
+      "marketId": "KXXISUCCESSOR-45JAN01-CMIN",
+      "ticker": "KXXISUCCESSOR-45JAN01-CMIN",
+      "label": "Will Chen Min'er become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXXISUCCESSOR",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Chen Min'er is announced as the first new non-interim leader of the Chinese Communist Party (CCP) before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-01T04:59:00Z",
+      "prob": 0.002,
+      "bid": 0.002,
+      "ask": 0.025,
+      "spread": 2.3,
+      "volume": 0
+    },
+    {
+      "marketId": "KXXISUCCESSOR-45JAN01-YYON",
+      "ticker": "KXXISUCCESSOR-45JAN01-YYON",
+      "label": "Will Yin Yong become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXXISUCCESSOR",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Yin Yong is announced as the first new non-interim leader of the Chinese Communist Party (CCP) before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-01T04:59:00Z",
+      "prob": 0.001,
+      "bid": 0.001,
+      "ask": 0.025,
+      "spread": 2.4,
+      "volume": 0
+    },
+    {
+      "marketId": "KXXISUCCESSOR-45JAN01-ZLEJ",
+      "ticker": "KXXISUCCESSOR-45JAN01-ZLEJ",
+      "label": "Will Zhao Leji become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXXISUCCESSOR",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If Zhao Leji is announced as the first new non-interim leader of the Chinese Communist Party (CCP) before Jan 1, 2045, then the market resolves to Yes.",
+      "resolution": "2045-01-01T04:59:00Z",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.14,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEXTROMANIAPM-45JAN01-DCIO",
+      "ticker": "KXNEXTROMANIAPM-45JAN01-DCIO",
+      "label": "Will Dacian Ciolo\u0219 be the next Prime Minister of Romania?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXNEXTROMANIAPM",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the first new person to hold Prime Minister of Romania after Issuance is Dacian Ciolo\u0219, then the market resolves to Yes.",
+      "resolution": "2045-01-01T15:00:00Z",
+      "prob": 0.07,
+      "bid": 0.0,
+      "ask": 0.07,
+      "spread": 7.000000000000001,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEXTROMANIAPM-45JAN01-IDUM",
+      "ticker": "KXNEXTROMANIAPM-45JAN01-IDUM",
+      "label": "Will Ionu\u021b Dumitru be the next Prime Minister of Romania?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXNEXTROMANIAPM",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the first new person to hold Prime Minister of Romania after Issuance is Ionu\u021b Dumitru, then the market resolves to Yes.",
+      "resolution": "2045-01-01T15:00:00Z",
+      "prob": 0.11,
+      "bid": 0.0,
+      "ask": 0.05,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEXTROMANIAPM-45JAN01-SMAT",
+      "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+      "label": "Will \u0218erban Matei be the next Prime Minister of Romania?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXNEXTROMANIAPM",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the first new person to hold Prime Minister of Romania after Issuance is \u0218erban Matei, then the market resolves to Yes.",
+      "resolution": "2045-01-01T15:00:00Z",
+      "prob": 0.11,
+      "bid": 0.02,
+      "ask": 0.11,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEXTROMANIAPM-45JAN01-LCRO",
+      "ticker": "KXNEXTROMANIAPM-45JAN01-LCRO",
+      "label": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXNEXTROMANIAPM",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Croitoru, then the market resolves to Yes.",
+      "resolution": "2045-01-01T15:00:00Z",
+      "prob": 0.04,
+      "bid": 0.03,
+      "ask": 0.08,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEXTROMANIAPM-45JAN01-MISA",
+      "ticker": "KXNEXTROMANIAPM-45JAN01-MISA",
+      "label": "Will Mugur Is\u0103rescu be the next Prime Minister of Romania?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXNEXTROMANIAPM",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the first new person to hold Prime Minister of Romania after Issuance is Mugur Is\u0103rescu, then the market resolves to Yes.",
+      "resolution": "2045-01-01T15:00:00Z",
+      "prob": 0.03,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXNEXTROMANIAPM-45JAN01-SBUR",
+      "ticker": "KXNEXTROMANIAPM-45JAN01-SBUR",
+      "label": "Will Sebastian Burduja be the next Prime Minister of Romania?",
+      "category": "World",
+      "shelf": "World",
+      "seriesTicker": "KXNEXTROMANIAPM",
+      "macroRank": 0,
+      "isMacro": false,
+      "description": "If the first new person to hold Prime Minister of Romania after Issuance is Sebastian Burduja, then the market resolves to Yes.",
+      "resolution": "2045-01-01T15:00:00Z",
+      "prob": 0.04,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 0
+    }
+  ],
+  "series_points": [
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-02-25",
+      "prob": 0.11,
+      "bid": 0.0,
+      "ask": 0.07,
+      "spread": 7.000000000000001,
+      "volume": 20
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-02-26",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-02-28",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-01",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-09",
+      "prob": 0.11,
+      "bid": 0.02,
+      "ask": 0.1,
+      "spread": 8.0,
+      "volume": 50
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-10",
+      "prob": 0.1,
+      "bid": 0.11,
+      "ask": 0.12,
+      "spread": 0.9999999999999996,
+      "volume": 2
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-12",
+      "prob": 0.09,
+      "bid": 0.06,
+      "ask": 0.12,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-19",
+      "prob": 0.09,
+      "bid": 0.06,
+      "ask": 0.12,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-23",
+      "prob": 0.12,
+      "bid": 0.04,
+      "ask": 0.11,
+      "spread": 7.000000000000001,
+      "volume": 1
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-03-24",
+      "prob": 0.075,
+      "bid": 0.03,
+      "ask": 0.12,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-04-04",
+      "prob": 0.12,
+      "bid": 0.06,
+      "ask": 0.12,
+      "spread": 6.0,
+      "volume": 50
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-04-10",
+      "prob": 0.075,
+      "bid": 0.03,
+      "ask": 0.12,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-04-15",
+      "prob": 0.075,
+      "bid": 0.03,
+      "ask": 0.12,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-04-30",
+      "prob": 0.065,
+      "bid": 0.01,
+      "ask": 0.12,
+      "spread": 11.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-05-01",
+      "prob": 0.065,
+      "bid": 0.01,
+      "ask": 0.12,
+      "spread": 11.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-05-13",
+      "prob": 0.06,
+      "bid": 0.01,
+      "ask": 0.11,
+      "spread": 10.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-05-22",
+      "prob": 0.375,
+      "bid": 0.0,
+      "ask": 0.75,
+      "spread": 75.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-05-23",
+      "prob": 0.375,
+      "bid": 0.0,
+      "ask": 0.75,
+      "spread": 75.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.5",
+      "date": "2026-05-24",
+      "prob": 0.5,
+      "bid": 0.0,
+      "ask": 1.0,
+      "spread": 100.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-13",
+      "prob": 0.02,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 611
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-14",
+      "prob": 0.035,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-15",
+      "prob": 0.035,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-16",
+      "prob": 0.035,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-17",
+      "prob": 0.04,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 10
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-18",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-19",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-20",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-22",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.7",
+      "date": "2026-05-23",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-13",
+      "prob": 0.17,
+      "bid": 0.13,
+      "ask": 0.2,
+      "spread": 7.000000000000001,
+      "volume": 162
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-14",
+      "prob": 0.16,
+      "bid": 0.13,
+      "ask": 0.19,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-15",
+      "prob": 0.16499999999999998,
+      "bid": 0.12,
+      "ask": 0.21,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-16",
+      "prob": 0.16,
+      "bid": 0.12,
+      "ask": 0.2,
+      "spread": 8.000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-17",
+      "prob": 0.16,
+      "bid": 0.12,
+      "ask": 0.2,
+      "spread": 8.000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-18",
+      "prob": 0.16499999999999998,
+      "bid": 0.12,
+      "ask": 0.21,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-19",
+      "prob": 0.12,
+      "bid": 0.08,
+      "ask": 0.16,
+      "spread": 8.0,
+      "volume": 500
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-20",
+      "prob": 0.15,
+      "bid": 0.09,
+      "ask": 0.18,
+      "spread": 9.0,
+      "volume": 317
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-21",
+      "prob": 0.14,
+      "bid": 0.17,
+      "ask": 0.23,
+      "spread": 6.0,
+      "volume": 831
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-22",
+      "prob": 0.19,
+      "bid": 0.1,
+      "ask": 0.16,
+      "spread": 6.0,
+      "volume": 60
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-23",
+      "prob": 0.73,
+      "bid": 0.14,
+      "ask": 0.22,
+      "spread": 7.999999999999999,
+      "volume": 1
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.7",
+      "date": "2026-05-24",
+      "prob": 0.2,
+      "bid": 0.15,
+      "ask": 0.19,
+      "spread": 4.000000000000001,
+      "volume": 11
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-20",
+      "prob": 0.33,
+      "bid": 0.27,
+      "ask": 0.33,
+      "spread": 6.0,
+      "volume": 63
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-21",
+      "prob": 0.26,
+      "bid": 0.17,
+      "ask": 0.26,
+      "spread": 9.0,
+      "volume": 101
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-22",
+      "prob": 0.21000000000000002,
+      "bid": 0.16,
+      "ask": 0.26,
+      "spread": 10.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-23",
+      "prob": 0.31,
+      "bid": 0.23,
+      "ask": 0.32,
+      "spread": 9.0,
+      "volume": 72
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-24",
+      "prob": 0.25,
+      "bid": 0.2,
+      "ask": 0.21,
+      "spread": 0.9999999999999981,
+      "volume": 215
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-25",
+      "prob": 0.21,
+      "bid": 0.14,
+      "ask": 0.18,
+      "spread": 3.9999999999999982,
+      "volume": 7
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-26",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.18,
+      "spread": 4.999999999999999,
+      "volume": 20
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-27",
+      "prob": 0.17,
+      "bid": 0.13,
+      "ask": 0.18,
+      "spread": 4.999999999999999,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-28",
+      "prob": 0.21,
+      "bid": 0.2,
+      "ask": 0.21,
+      "spread": 0.9999999999999981,
+      "volume": 30
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-29",
+      "prob": 0.19,
+      "bid": 0.16,
+      "ask": 0.2,
+      "spread": 4.000000000000001,
+      "volume": 11
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-30",
+      "prob": 0.2,
+      "bid": 0.2,
+      "ask": 0.21,
+      "spread": 0.9999999999999981,
+      "volume": 15
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-03-31",
+      "prob": 0.26,
+      "bid": 0.17,
+      "ask": 0.25,
+      "spread": 7.999999999999999,
+      "volume": 34
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-01",
+      "prob": 0.16,
+      "bid": 0.18,
+      "ask": 0.25,
+      "spread": 7.000000000000001,
+      "volume": 8
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-02",
+      "prob": 0.17,
+      "bid": 0.18,
+      "ask": 0.25,
+      "spread": 7.000000000000001,
+      "volume": 40
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-03",
+      "prob": 0.18,
+      "bid": 0.01,
+      "ask": 0.25,
+      "spread": 24.0,
+      "volume": 65
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-04",
+      "prob": 0.14,
+      "bid": 0.07,
+      "ask": 0.14,
+      "spread": 7.000000000000001,
+      "volume": 65
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-05",
+      "prob": 0.15,
+      "bid": 0.11,
+      "ask": 0.15,
+      "spread": 3.9999999999999996,
+      "volume": 13
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-06",
+      "prob": 0.16,
+      "bid": 0.12,
+      "ask": 0.16,
+      "spread": 4.000000000000001,
+      "volume": 23
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-07",
+      "prob": 0.23,
+      "bid": 0.14,
+      "ask": 0.21,
+      "spread": 6.999999999999998,
+      "volume": 5
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-08",
+      "prob": 0.17,
+      "bid": 0.12,
+      "ask": 0.15,
+      "spread": 3.0,
+      "volume": 124
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-09",
+      "prob": 0.15,
+      "bid": 0.14,
+      "ask": 0.15,
+      "spread": 0.9999999999999981,
+      "volume": 22
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-10",
+      "prob": 0.13,
+      "bid": 0.14,
+      "ask": 0.17,
+      "spread": 3.0,
+      "volume": 59
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-11",
+      "prob": 0.14,
+      "bid": 0.13,
+      "ask": 0.14,
+      "spread": 1.0000000000000009,
+      "volume": 143
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-12",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.15,
+      "spread": 1.9999999999999991,
+      "volume": 146
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-13",
+      "prob": 0.18,
+      "bid": 0.18,
+      "ask": 0.19,
+      "spread": 1.0000000000000009,
+      "volume": 126
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-14",
+      "prob": 0.15,
+      "bid": 0.2,
+      "ask": 0.21,
+      "spread": 0.9999999999999981,
+      "volume": 60
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-15",
+      "prob": 0.14,
+      "bid": 0.14,
+      "ask": 0.19,
+      "spread": 4.999999999999999,
+      "volume": 34
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-16",
+      "prob": 0.13,
+      "bid": 0.14,
+      "ask": 0.17,
+      "spread": 3.0,
+      "volume": 61
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-17",
+      "prob": 0.14,
+      "bid": 0.14,
+      "ask": 0.22,
+      "spread": 7.999999999999999,
+      "volume": 40
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-18",
+      "prob": 0.15,
+      "bid": 0.13,
+      "ask": 0.15,
+      "spread": 1.9999999999999991,
+      "volume": 88
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-19",
+      "prob": 0.07,
+      "bid": 0.07,
+      "ask": 0.17,
+      "spread": 10.0,
+      "volume": 145
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-20",
+      "prob": 0.19,
+      "bid": 0.15,
+      "ask": 0.2,
+      "spread": 5.000000000000002,
+      "volume": 7
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-21",
+      "prob": 0.2,
+      "bid": 0.14,
+      "ask": 0.24,
+      "spread": 9.999999999999998,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-22",
+      "prob": 0.17,
+      "bid": 0.13,
+      "ask": 0.17,
+      "spread": 4.000000000000001,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-23",
+      "prob": 0.12,
+      "bid": 0.11,
+      "ask": 0.12,
+      "spread": 0.9999999999999996,
+      "volume": 22
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-24",
+      "prob": 0.09,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 412
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-25",
+      "prob": 0.12,
+      "bid": 0.08,
+      "ask": 0.1,
+      "spread": 2.0000000000000004,
+      "volume": 256
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-26",
+      "prob": 0.11,
+      "bid": 0.08,
+      "ask": 0.11,
+      "spread": 3.0,
+      "volume": 50
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-27",
+      "prob": 0.04,
+      "bid": 0.05,
+      "ask": 0.11,
+      "spread": 6.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-28",
+      "prob": 0.03,
+      "bid": 0.07,
+      "ask": 0.09,
+      "spread": 1.9999999999999991,
+      "volume": 339
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-29",
+      "prob": 0.04,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 119
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-04-30",
+      "prob": 0.13,
+      "bid": 0.09,
+      "ask": 0.13,
+      "spread": 4.000000000000001,
+      "volume": 104
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-01",
+      "prob": 0.13,
+      "bid": 0.1,
+      "ask": 0.13,
+      "spread": 3.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-02",
+      "prob": 0.09,
+      "bid": 0.12,
+      "ask": 0.14,
+      "spread": 2.0000000000000018,
+      "volume": 320
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-03",
+      "prob": 0.15,
+      "bid": 0.15,
+      "ask": 0.17,
+      "spread": 2.0000000000000018,
+      "volume": 406
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-04",
+      "prob": 0.19,
+      "bid": 0.14,
+      "ask": 0.17,
+      "spread": 3.0,
+      "volume": 239
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-05",
+      "prob": 0.14,
+      "bid": 0.13,
+      "ask": 0.19,
+      "spread": 6.0,
+      "volume": 200
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-06",
+      "prob": 0.15,
+      "bid": 0.15,
+      "ask": 0.17,
+      "spread": 2.0000000000000018,
+      "volume": 2
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-07",
+      "prob": 0.1,
+      "bid": 0.07,
+      "ask": 0.1,
+      "spread": 3.0,
+      "volume": 947
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-08",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.15,
+      "spread": 1.9999999999999991,
+      "volume": 189
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-09",
+      "prob": 0.16,
+      "bid": 0.13,
+      "ask": 0.15,
+      "spread": 1.9999999999999991,
+      "volume": 37
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-10",
+      "prob": 0.11,
+      "bid": 0.08,
+      "ask": 0.11,
+      "spread": 3.0,
+      "volume": 12
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-11",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.15,
+      "spread": 1.9999999999999991,
+      "volume": 346
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-12",
+      "prob": 0.12,
+      "bid": 0.12,
+      "ask": 0.14,
+      "spread": 2.0000000000000018,
+      "volume": 647
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-13",
+      "prob": 0.12,
+      "bid": 0.11,
+      "ask": 0.12,
+      "spread": 0.9999999999999996,
+      "volume": 1269
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-14",
+      "prob": 0.13,
+      "bid": 0.14,
+      "ask": 0.15,
+      "spread": 0.9999999999999981,
+      "volume": 589
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-15",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.11,
+      "spread": 0.9999999999999996,
+      "volume": 1190
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-16",
+      "prob": 0.07,
+      "bid": 0.07,
+      "ask": 0.08,
+      "spread": 0.9999999999999996,
+      "volume": 340
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-17",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.08,
+      "spread": 2.0000000000000004,
+      "volume": 84
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-18",
+      "prob": 0.06,
+      "bid": 0.05,
+      "ask": 0.06,
+      "spread": 0.9999999999999996,
+      "volume": 2859
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-19",
+      "prob": 0.14,
+      "bid": 0.11,
+      "ask": 0.16,
+      "spread": 5.0,
+      "volume": 1871
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-20",
+      "prob": 0.1,
+      "bid": 0.06,
+      "ask": 0.1,
+      "spread": 4.000000000000001,
+      "volume": 398
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-21",
+      "prob": 0.07,
+      "bid": 0.07,
+      "ask": 0.08,
+      "spread": 0.9999999999999996,
+      "volume": 8028
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-22",
+      "prob": 0.05,
+      "bid": 0.02,
+      "ask": 0.06,
+      "spread": 3.9999999999999996,
+      "volume": 274
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-23",
+      "prob": 0.08,
+      "bid": 0.03,
+      "ask": 0.08,
+      "spread": 5.0,
+      "volume": 240
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.7",
+      "date": "2026-05-24",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.04,
+      "spread": 4.0,
+      "volume": 302
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-03-09",
+      "prob": 0.08,
+      "bid": 0.0,
+      "ask": 0.09,
+      "spread": 9.0,
+      "volume": 50
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-03-10",
+      "prob": 0.09,
+      "bid": 0.0,
+      "ask": 0.09,
+      "spread": 9.0,
+      "volume": 4
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-03-19",
+      "prob": 0.045,
+      "bid": 0.0,
+      "ask": 0.09,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-03-23",
+      "prob": 0.09,
+      "bid": 0.02,
+      "ask": 0.09,
+      "spread": 6.999999999999999,
+      "volume": 1
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-03-27",
+      "prob": 0.045,
+      "bid": 0.0,
+      "ask": 0.09,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-04-04",
+      "prob": 0.045,
+      "bid": 0.0,
+      "ask": 0.09,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-05-13",
+      "prob": 0.04,
+      "bid": 0.0,
+      "ask": 0.08,
+      "spread": 8.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-05-22",
+      "prob": 0.11,
+      "bid": 0.0,
+      "ask": 0.22,
+      "spread": 22.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-05-23",
+      "prob": 0.5,
+      "bid": 0.0,
+      "ask": 1.0,
+      "spread": 100.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26OCT-T0.6",
+      "date": "2026-05-24",
+      "prob": 0.5,
+      "bid": 0.0,
+      "ask": 1.0,
+      "spread": 100.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "date": "2026-05-15",
+      "prob": 0.01,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 2014
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "date": "2026-05-16",
+      "prob": 0.015,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "date": "2026-05-17",
+      "prob": 0.015,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "date": "2026-05-18",
+      "prob": 0.015,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "date": "2026-05-19",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.8",
+      "date": "2026-05-24",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 5
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-19",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.11,
+      "spread": 0.9999999999999996,
+      "volume": 26
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-20",
+      "prob": 0.26,
+      "bid": 0.21,
+      "ask": 0.23,
+      "spread": 2.0000000000000018,
+      "volume": 174
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-21",
+      "prob": 0.16499999999999998,
+      "bid": 0.12,
+      "ask": 0.21,
+      "spread": 9.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-22",
+      "prob": 0.12,
+      "bid": 0.11,
+      "ask": 0.21,
+      "spread": 10.0,
+      "volume": 26
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-23",
+      "prob": 0.24,
+      "bid": 0.18,
+      "ask": 0.24,
+      "spread": 6.0,
+      "volume": 154
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-24",
+      "prob": 0.2,
+      "bid": 0.17,
+      "ask": 0.2,
+      "spread": 3.0,
+      "volume": 17
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-25",
+      "prob": 0.17,
+      "bid": 0.11,
+      "ask": 0.17,
+      "spread": 6.000000000000001,
+      "volume": 96
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-26",
+      "prob": 0.1,
+      "bid": 0.13,
+      "ask": 0.17,
+      "spread": 4.000000000000001,
+      "volume": 11
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-27",
+      "prob": 0.17,
+      "bid": 0.11,
+      "ask": 0.17,
+      "spread": 6.000000000000001,
+      "volume": 12
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-28",
+      "prob": 0.17,
+      "bid": 0.17,
+      "ask": 0.22,
+      "spread": 4.999999999999999,
+      "volume": 61
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-29",
+      "prob": 0.23,
+      "bid": 0.13,
+      "ask": 0.23,
+      "spread": 10.0,
+      "volume": 36
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-30",
+      "prob": 0.14,
+      "bid": 0.15,
+      "ask": 0.24,
+      "spread": 9.0,
+      "volume": 33
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-03-31",
+      "prob": 0.13,
+      "bid": 0.14,
+      "ask": 0.22,
+      "spread": 7.999999999999999,
+      "volume": 34
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-01",
+      "prob": 0.16,
+      "bid": 0.13,
+      "ask": 0.21,
+      "spread": 7.999999999999999,
+      "volume": 69
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-02",
+      "prob": 0.18,
+      "bid": 0.14,
+      "ask": 0.22,
+      "spread": 7.999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-03",
+      "prob": 0.95,
+      "bid": 0.01,
+      "ask": 0.9,
+      "spread": 89.0,
+      "volume": 26
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-04",
+      "prob": 0.07,
+      "bid": 0.06,
+      "ask": 0.07,
+      "spread": 1.0000000000000009,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-05",
+      "prob": 0.07,
+      "bid": 0.07,
+      "ask": 0.08,
+      "spread": 0.9999999999999996,
+      "volume": 9
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-06",
+      "prob": 0.14,
+      "bid": 0.07,
+      "ask": 0.15,
+      "spread": 7.999999999999999,
+      "volume": 160
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-07",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.15,
+      "spread": 4.999999999999999,
+      "volume": 18
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-08",
+      "prob": 0.09,
+      "bid": 0.07,
+      "ask": 0.09,
+      "spread": 1.9999999999999991,
+      "volume": 86
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-09",
+      "prob": 0.1,
+      "bid": 0.07,
+      "ask": 0.1,
+      "spread": 3.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-10",
+      "prob": 0.06,
+      "bid": 0.05,
+      "ask": 0.07,
+      "spread": 2.0000000000000004,
+      "volume": 66
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-11",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.07,
+      "spread": 1.0000000000000009,
+      "volume": 411
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-12",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.08,
+      "spread": 2.0000000000000004,
+      "volume": 61
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-13",
+      "prob": 0.11,
+      "bid": 0.14,
+      "ask": 0.15,
+      "spread": 0.9999999999999981,
+      "volume": 112
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-14",
+      "prob": 0.07,
+      "bid": 0.11,
+      "ask": 0.13,
+      "spread": 2.0000000000000004,
+      "volume": 106
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-15",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.13,
+      "spread": 7.000000000000001,
+      "volume": 9
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-16",
+      "prob": 0.14,
+      "bid": 0.06,
+      "ask": 0.14,
+      "spread": 8.000000000000002,
+      "volume": 28
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-17",
+      "prob": 0.14,
+      "bid": 0.06,
+      "ask": 0.12,
+      "spread": 6.0,
+      "volume": 78
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-18",
+      "prob": 0.13,
+      "bid": 0.06,
+      "ask": 0.13,
+      "spread": 7.000000000000001,
+      "volume": 74
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-19",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.12,
+      "spread": 6.0,
+      "volume": 209
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-20",
+      "prob": 0.11,
+      "bid": 0.06,
+      "ask": 0.14,
+      "spread": 8.000000000000002,
+      "volume": 2
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-21",
+      "prob": 0.16,
+      "bid": 0.07,
+      "ask": 0.16,
+      "spread": 9.0,
+      "volume": 100
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-22",
+      "prob": 0.07,
+      "bid": 0.06,
+      "ask": 0.1,
+      "spread": 4.000000000000001,
+      "volume": 80
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-23",
+      "prob": 0.08,
+      "bid": 0.06,
+      "ask": 0.1,
+      "spread": 4.000000000000001,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-24",
+      "prob": 0.05,
+      "bid": 0.03,
+      "ask": 0.05,
+      "spread": 2.0000000000000004,
+      "volume": 164
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-25",
+      "prob": 0.05,
+      "bid": 0.02,
+      "ask": 0.05,
+      "spread": 3.0000000000000004,
+      "volume": 163
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-26",
+      "prob": 0.05,
+      "bid": 0.02,
+      "ask": 0.05,
+      "spread": 3.0000000000000004,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-27",
+      "prob": 0.02,
+      "bid": 0.02,
+      "ask": 0.05,
+      "spread": 3.0000000000000004,
+      "volume": 34
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-28",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-29",
+      "prob": 0.04,
+      "bid": 0.04,
+      "ask": 0.05,
+      "spread": 1.0000000000000002,
+      "volume": 54
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-04-30",
+      "prob": 0.05,
+      "bid": 0.04,
+      "ask": 0.05,
+      "spread": 1.0000000000000002,
+      "volume": 150
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-01",
+      "prob": 0.045,
+      "bid": 0.04,
+      "ask": 0.05,
+      "spread": 1.0000000000000002,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-02",
+      "prob": 0.06,
+      "bid": 0.05,
+      "ask": 0.06,
+      "spread": 0.9999999999999996,
+      "volume": 139
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-03",
+      "prob": 0.055,
+      "bid": 0.05,
+      "ask": 0.06,
+      "spread": 0.9999999999999996,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-04",
+      "prob": 0.05,
+      "bid": 0.03,
+      "ask": 0.05,
+      "spread": 2.0000000000000004,
+      "volume": 89
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-05",
+      "prob": 0.05,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 121
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-06",
+      "prob": 0.05,
+      "bid": 0.03,
+      "ask": 0.05,
+      "spread": 2.0000000000000004,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-07",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 176
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-08",
+      "prob": 0.04,
+      "bid": 0.02,
+      "ask": 0.05,
+      "spread": 3.0000000000000004,
+      "volume": 85
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-09",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.05,
+      "spread": 2.0000000000000004,
+      "volume": 381
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-10",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 200
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-11",
+      "prob": 0.025,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-12",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 957
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-13",
+      "prob": 0.04,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 4
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-14",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 1425
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-15",
+      "prob": 0.01,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 444
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-16",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-17",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 143
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-18",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 1785
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-19",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 40
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-20",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 62
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-21",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 147
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.9",
+      "date": "2026-05-24",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 393
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-14",
+      "prob": 0.06,
+      "bid": 0.02,
+      "ask": 0.06,
+      "spread": 3.9999999999999996,
+      "volume": 90
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-15",
+      "prob": 0.06,
+      "bid": 0.02,
+      "ask": 0.05,
+      "spread": 3.0000000000000004,
+      "volume": 505
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-16",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 50
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-17",
+      "prob": 0.025,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-18",
+      "prob": 0.04,
+      "bid": 0.02,
+      "ask": 0.06,
+      "spread": 3.9999999999999996,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-19",
+      "prob": 0.035,
+      "bid": 0.02,
+      "ask": 0.05,
+      "spread": 3.0000000000000004,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-20",
+      "prob": 0.025,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-21",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 9
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-22",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.03,
+      "spread": 1.9999999999999998,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-23",
+      "prob": 0.01,
+      "bid": 0.01,
+      "ask": 0.04,
+      "spread": 3.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.8",
+      "date": "2026-05-24",
+      "prob": 0.025,
+      "bid": 0.01,
+      "ask": 0.04,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-15",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 3414
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-16",
+      "prob": 0.045000000000000005,
+      "bid": 0.02,
+      "ask": 0.07,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-17",
+      "prob": 0.025,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-18",
+      "prob": 0.015,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-19",
+      "prob": 0.015,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-20",
+      "prob": 0.015,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T0.9",
+      "date": "2026-05-24",
+      "prob": 0.03,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-19",
+      "prob": 0.14,
+      "bid": 0.11,
+      "ask": 0.14,
+      "spread": 3.0000000000000013,
+      "volume": 86
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-20",
+      "prob": 0.25,
+      "bid": 0.2,
+      "ask": 0.3,
+      "spread": 9.999999999999998,
+      "volume": 90
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-21",
+      "prob": 0.2,
+      "bid": 0.15,
+      "ask": 0.2,
+      "spread": 5.000000000000002,
+      "volume": 56
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-22",
+      "prob": 0.17,
+      "bid": 0.14,
+      "ask": 0.2,
+      "spread": 6.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-23",
+      "prob": 0.31,
+      "bid": 0.27,
+      "ask": 0.31,
+      "spread": 3.9999999999999982,
+      "volume": 5
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-24",
+      "prob": 0.18,
+      "bid": 0.18,
+      "ask": 0.22,
+      "spread": 4.000000000000001,
+      "volume": 74
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-25",
+      "prob": 0.16,
+      "bid": 0.16,
+      "ask": 0.19,
+      "spread": 3.0,
+      "volume": 65
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-26",
+      "prob": 0.16,
+      "bid": 0.16,
+      "ask": 0.18,
+      "spread": 1.9999999999999991,
+      "volume": 32
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-27",
+      "prob": 0.18,
+      "bid": 0.16,
+      "ask": 0.18,
+      "spread": 1.9999999999999991,
+      "volume": 91
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-28",
+      "prob": 0.19,
+      "bid": 0.16,
+      "ask": 0.23,
+      "spread": 7.000000000000001,
+      "volume": 152
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-29",
+      "prob": 0.215,
+      "bid": 0.18,
+      "ask": 0.25,
+      "spread": 7.000000000000001,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-30",
+      "prob": 0.16,
+      "bid": 0.16,
+      "ask": 0.26,
+      "spread": 10.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-03-31",
+      "prob": 0.16,
+      "bid": 0.17,
+      "ask": 0.23,
+      "spread": 6.0,
+      "volume": 21
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-01",
+      "prob": 0.16,
+      "bid": 0.17,
+      "ask": 0.23,
+      "spread": 6.0,
+      "volume": 47
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-02",
+      "prob": 0.25,
+      "bid": 0.19,
+      "ask": 0.25,
+      "spread": 6.0,
+      "volume": 44
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-03",
+      "prob": 0.405,
+      "bid": 0.15,
+      "ask": 0.66,
+      "spread": 51.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-04",
+      "prob": 0.13,
+      "bid": 0.06,
+      "ask": 0.13,
+      "spread": 7.000000000000001,
+      "volume": 314
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-05",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.16,
+      "spread": 6.0,
+      "volume": 137
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-06",
+      "prob": 0.14,
+      "bid": 0.1,
+      "ask": 0.16,
+      "spread": 6.0,
+      "volume": 19
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-07",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.19,
+      "spread": 6.0,
+      "volume": 9
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-08",
+      "prob": 0.14,
+      "bid": 0.09,
+      "ask": 0.12,
+      "spread": 3.0,
+      "volume": 144
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-09",
+      "prob": 0.16,
+      "bid": 0.12,
+      "ask": 0.16,
+      "spread": 4.000000000000001,
+      "volume": 24
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-10",
+      "prob": 0.14,
+      "bid": 0.13,
+      "ask": 0.14,
+      "spread": 1.0000000000000009,
+      "volume": 9
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-11",
+      "prob": 0.11,
+      "bid": 0.1,
+      "ask": 0.11,
+      "spread": 0.9999999999999996,
+      "volume": 47
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-12",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.12,
+      "spread": 1.9999999999999991,
+      "volume": 152
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-13",
+      "prob": 0.16,
+      "bid": 0.15,
+      "ask": 0.16,
+      "spread": 1.0000000000000009,
+      "volume": 147
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-14",
+      "prob": 0.15,
+      "bid": 0.16,
+      "ask": 0.17,
+      "spread": 1.0000000000000009,
+      "volume": 60
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-15",
+      "prob": 0.16,
+      "bid": 0.1,
+      "ask": 0.16,
+      "spread": 6.0,
+      "volume": 29
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-16",
+      "prob": 0.11,
+      "bid": 0.1,
+      "ask": 0.14,
+      "spread": 4.000000000000001,
+      "volume": 42
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-17",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.17,
+      "spread": 7.000000000000001,
+      "volume": 105
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-18",
+      "prob": 0.12,
+      "bid": 0.09,
+      "ask": 0.13,
+      "spread": 4.000000000000001,
+      "volume": 37
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-19",
+      "prob": 0.09,
+      "bid": 0.09,
+      "ask": 0.15,
+      "spread": 6.0,
+      "volume": 126
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-20",
+      "prob": 0.14,
+      "bid": 0.1,
+      "ask": 0.17,
+      "spread": 7.000000000000001,
+      "volume": 4
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-21",
+      "prob": 0.11,
+      "bid": 0.11,
+      "ask": 0.2,
+      "spread": 9.000000000000002,
+      "volume": 37
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-22",
+      "prob": 0.1,
+      "bid": 0.1,
+      "ask": 0.14,
+      "spread": 4.000000000000001,
+      "volume": 20
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-23",
+      "prob": 0.1,
+      "bid": 0.12,
+      "ask": 0.13,
+      "spread": 1.0000000000000009,
+      "volume": 71
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-24",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.07,
+      "spread": 4.000000000000001,
+      "volume": 454
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-25",
+      "prob": 0.1,
+      "bid": 0.09,
+      "ask": 0.12,
+      "spread": 3.0,
+      "volume": 547
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-26",
+      "prob": 0.09,
+      "bid": 0.06,
+      "ask": 0.11,
+      "spread": 5.0,
+      "volume": 348
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-27",
+      "prob": 0.03,
+      "bid": 0.05,
+      "ask": 0.09,
+      "spread": 3.9999999999999996,
+      "volume": 20
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-28",
+      "prob": 0.05,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 42
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-29",
+      "prob": 0.02,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 170
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-04-30",
+      "prob": 0.04,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 224
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-01",
+      "prob": 0.1,
+      "bid": 0.05,
+      "ask": 0.1,
+      "spread": 5.0,
+      "volume": 290
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-02",
+      "prob": 0.12,
+      "bid": 0.04,
+      "ask": 0.11,
+      "spread": 7.000000000000001,
+      "volume": 49
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-03",
+      "prob": 0.09,
+      "bid": 0.04,
+      "ask": 0.09,
+      "spread": 5.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-04",
+      "prob": 0.05,
+      "bid": 0.04,
+      "ask": 0.13,
+      "spread": 9.0,
+      "volume": 94
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-05",
+      "prob": 0.15,
+      "bid": 0.04,
+      "ask": 0.12,
+      "spread": 7.999999999999999,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-06",
+      "prob": 0.09,
+      "bid": 0.05,
+      "ask": 0.09,
+      "spread": 3.9999999999999996,
+      "volume": 115
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-07",
+      "prob": 0.04,
+      "bid": 0.04,
+      "ask": 0.06,
+      "spread": 1.9999999999999998,
+      "volume": 118
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-08",
+      "prob": 0.09,
+      "bid": 0.03,
+      "ask": 0.08,
+      "spread": 5.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-09",
+      "prob": 0.09,
+      "bid": 0.04,
+      "ask": 0.09,
+      "spread": 5.0,
+      "volume": 531
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-10",
+      "prob": 0.07,
+      "bid": 0.04,
+      "ask": 0.1,
+      "spread": 6.000000000000001,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-11",
+      "prob": 0.07500000000000001,
+      "bid": 0.05,
+      "ask": 0.1,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-12",
+      "prob": 0.1,
+      "bid": 0.09,
+      "ask": 0.1,
+      "spread": 1.0000000000000009,
+      "volume": 503
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-13",
+      "prob": 0.06,
+      "bid": 0.03,
+      "ask": 0.06,
+      "spread": 3.0,
+      "volume": 277
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-14",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.07,
+      "spread": 1.0000000000000009,
+      "volume": 1079
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-15",
+      "prob": 0.03,
+      "bid": 0.03,
+      "ask": 0.05,
+      "spread": 2.0000000000000004,
+      "volume": 567
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-16",
+      "prob": 0.05,
+      "bid": 0.03,
+      "ask": 0.07,
+      "spread": 4.000000000000001,
+      "volume": 227
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-17",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 250
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-18",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 1892
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-19",
+      "prob": 0.03,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 434
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-20",
+      "prob": 0.04,
+      "bid": 0.0,
+      "ask": 0.04,
+      "spread": 4.0,
+      "volume": 223
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-21",
+      "prob": 0.01,
+      "bid": 0.03,
+      "ask": 0.04,
+      "spread": 1.0000000000000002,
+      "volume": 6767
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-22",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 1420
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-23",
+      "prob": 0.02,
+      "bid": 0.02,
+      "ask": 0.03,
+      "spread": 0.9999999999999999,
+      "volume": 51
+    },
+    {
+      "marketId": "KXCPI-26MAY-T0.8",
+      "date": "2026-05-24",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 413
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-19",
+      "prob": 0.09,
+      "bid": 0.03,
+      "ask": 0.09,
+      "spread": 6.0,
+      "volume": 20
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-20",
+      "prob": 0.24,
+      "bid": 0.22,
+      "ask": 0.25,
+      "spread": 3.0,
+      "volume": 292
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-21",
+      "prob": 0.18,
+      "bid": 0.09,
+      "ask": 0.18,
+      "spread": 9.0,
+      "volume": 719
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-22",
+      "prob": 0.1,
+      "bid": 0.14,
+      "ask": 0.17,
+      "spread": 3.0,
+      "volume": 345
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-23",
+      "prob": 0.16,
+      "bid": 0.14,
+      "ask": 0.21,
+      "spread": 6.999999999999998,
+      "volume": 386
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-24",
+      "prob": 0.16,
+      "bid": 0.15,
+      "ask": 0.16,
+      "spread": 1.0000000000000009,
+      "volume": 55
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-25",
+      "prob": 0.14,
+      "bid": 0.14,
+      "ask": 0.16,
+      "spread": 1.9999999999999991,
+      "volume": 282
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-26",
+      "prob": 0.15,
+      "bid": 0.13,
+      "ask": 0.15,
+      "spread": 1.9999999999999991,
+      "volume": 129
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-27",
+      "prob": 0.15,
+      "bid": 0.1,
+      "ask": 0.15,
+      "spread": 4.999999999999999,
+      "volume": 344
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-28",
+      "prob": 0.16,
+      "bid": 0.17,
+      "ask": 0.18,
+      "spread": 0.9999999999999981,
+      "volume": 38
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-29",
+      "prob": 0.18,
+      "bid": 0.13,
+      "ask": 0.14,
+      "spread": 1.0000000000000009,
+      "volume": 219
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-30",
+      "prob": 0.16,
+      "bid": 0.16,
+      "ask": 0.18,
+      "spread": 1.9999999999999991,
+      "volume": 93
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-03-31",
+      "prob": 0.15,
+      "bid": 0.15,
+      "ask": 0.17,
+      "spread": 2.0000000000000018,
+      "volume": 170
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-01",
+      "prob": 0.14,
+      "bid": 0.13,
+      "ask": 0.19,
+      "spread": 6.0,
+      "volume": 205
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-02",
+      "prob": 0.13,
+      "bid": 0.13,
+      "ask": 0.19,
+      "spread": 6.0,
+      "volume": 107
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-03",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.13,
+      "spread": 13.0,
+      "volume": 489
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-04",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 31
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-05",
+      "prob": 0.03,
+      "bid": 0.02,
+      "ask": 0.04,
+      "spread": 2.0,
+      "volume": 324
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-06",
+      "prob": 0.15,
+      "bid": 0.1,
+      "ask": 0.14,
+      "spread": 4.000000000000001,
+      "volume": 829
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-07",
+      "prob": 0.14,
+      "bid": 0.14,
+      "ask": 0.15,
+      "spread": 0.9999999999999981,
+      "volume": 376
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-08",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 639
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-09",
+      "prob": 0.06,
+      "bid": 0.04,
+      "ask": 0.06,
+      "spread": 1.9999999999999998,
+      "volume": 27
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-10",
+      "prob": 0.05,
+      "bid": 0.06,
+      "ask": 0.07,
+      "spread": 1.0000000000000009,
+      "volume": 26
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-11",
+      "prob": 0.05,
+      "bid": 0.05,
+      "ask": 0.06,
+      "spread": 0.9999999999999996,
+      "volume": 113
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-12",
+      "prob": 0.05,
+      "bid": 0.05,
+      "ask": 0.06,
+      "spread": 0.9999999999999996,
+      "volume": 45
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-13",
+      "prob": 0.08,
+      "bid": 0.08,
+      "ask": 0.09,
+      "spread": 0.9999999999999996,
+      "volume": 425
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-14",
+      "prob": 0.09,
+      "bid": 0.08,
+      "ask": 0.1,
+      "spread": 2.0000000000000004,
+      "volume": 83
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-15",
+      "prob": 0.1,
+      "bid": 0.08,
+      "ask": 0.1,
+      "spread": 2.0000000000000004,
+      "volume": 18
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-16",
+      "prob": 0.1,
+      "bid": 0.08,
+      "ask": 0.1,
+      "spread": 2.0000000000000004,
+      "volume": 81
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-17",
+      "prob": 0.08,
+      "bid": 0.06,
+      "ask": 0.08,
+      "spread": 2.0000000000000004,
+      "volume": 203
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-18",
+      "prob": 0.05,
+      "bid": 0.05,
+      "ask": 0.07,
+      "spread": 2.0000000000000004,
+      "volume": 42
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-19",
+      "prob": 0.06,
+      "bid": 0.06,
+      "ask": 0.08,
+      "spread": 2.0000000000000004,
+      "volume": 457
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-20",
+      "prob": 0.08,
+      "bid": 0.06,
+      "ask": 0.08,
+      "spread": 2.0000000000000004,
+      "volume": 52
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-21",
+      "prob": 0.1,
+      "bid": 0.08,
+      "ask": 0.1,
+      "spread": 2.0000000000000004,
+      "volume": 146
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-22",
+      "prob": 0.1,
+      "bid": 0.04,
+      "ask": 0.08,
+      "spread": 4.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-23",
+      "prob": 0.08,
+      "bid": 0.04,
+      "ask": 0.09,
+      "spread": 5.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-24",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 57
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-25",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 64
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-26",
+      "prob": 0.03,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-27",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-28",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-29",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 124
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-04-30",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 4
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-02",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 366
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-03",
+      "prob": 0.015,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-04",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-05",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 332
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-06",
+      "prob": 0.01,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-07",
+      "prob": 0.015,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-08",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 295
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-09",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 114
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-10",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-11",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-12",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 229
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-13",
+      "prob": 0.01,
+      "bid": 0.01,
+      "ask": 0.02,
+      "spread": 1.0,
+      "volume": 708
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-14",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 3094
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-15",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 263
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-16",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-17",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 273
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-18",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 233
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-19",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 13
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-20",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-23",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T1.0",
+      "date": "2026-05-24",
+      "prob": 0.04,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 149
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-11",
+      "prob": 0.9,
+      "bid": 0.9,
+      "ask": 0.97,
+      "spread": 6.999999999999995,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-12",
+      "prob": 0.9,
+      "bid": 0.89,
+      "ask": 0.97,
+      "spread": 7.9999999999999964,
+      "volume": 12
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-13",
+      "prob": 0.935,
+      "bid": 0.9,
+      "ask": 0.97,
+      "spread": 6.999999999999995,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-14",
+      "prob": 0.9,
+      "bid": 0.9,
+      "ask": 0.97,
+      "spread": 6.999999999999995,
+      "volume": 5
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-15",
+      "prob": 0.97,
+      "bid": 0.96,
+      "ask": 0.97,
+      "spread": 1.0000000000000009,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-16",
+      "prob": 0.965,
+      "bid": 0.96,
+      "ask": 0.97,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-17",
+      "prob": 0.96,
+      "bid": 0.9,
+      "ask": 0.96,
+      "spread": 5.999999999999995,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-18",
+      "prob": 0.87,
+      "bid": 0.87,
+      "ask": 0.9,
+      "spread": 3.0000000000000027,
+      "volume": 17
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-19",
+      "prob": 0.97,
+      "bid": 0.88,
+      "ask": 0.97,
+      "spread": 8.999999999999996,
+      "volume": 233
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-20",
+      "prob": 0.9199999999999999,
+      "bid": 0.87,
+      "ask": 0.97,
+      "spread": 9.999999999999998,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-21",
+      "prob": 0.9,
+      "bid": 0.88,
+      "ask": 0.97,
+      "spread": 8.999999999999996,
+      "volume": 65
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-22",
+      "prob": 0.94,
+      "bid": 0.93,
+      "ask": 0.94,
+      "spread": 0.9999999999999898,
+      "volume": 4
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-23",
+      "prob": 0.9,
+      "bid": 0.88,
+      "ask": 0.9,
+      "spread": 2.0000000000000018,
+      "volume": 7
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-24",
+      "prob": 0.87,
+      "bid": 0.87,
+      "ask": 0.91,
+      "spread": 4.0000000000000036,
+      "volume": 40
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-25",
+      "prob": 0.9,
+      "bid": 0.9,
+      "ask": 0.93,
+      "spread": 3.0000000000000027,
+      "volume": 140
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-26",
+      "prob": 0.94,
+      "bid": 0.94,
+      "ask": 0.95,
+      "spread": 1.0000000000000009,
+      "volume": 52
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-27",
+      "prob": 0.97,
+      "bid": 0.91,
+      "ask": 0.95,
+      "spread": 3.9999999999999925,
+      "volume": 40
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-28",
+      "prob": 0.95,
+      "bid": 0.95,
+      "ask": 0.98,
+      "spread": 3.0000000000000027,
+      "volume": 30
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-29",
+      "prob": 0.96,
+      "bid": 0.97,
+      "ask": 0.98,
+      "spread": 1.0000000000000009,
+      "volume": 80
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-04-30",
+      "prob": 0.96,
+      "bid": 0.97,
+      "ask": 0.98,
+      "spread": 1.0000000000000009,
+      "volume": 50
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-01",
+      "prob": 0.98,
+      "bid": 0.95,
+      "ask": 1.0,
+      "spread": 5.000000000000004,
+      "volume": 414
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-02",
+      "prob": 0.98,
+      "bid": 0.98,
+      "ask": 1.0,
+      "spread": 2.0000000000000018,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-03",
+      "prob": 0.97,
+      "bid": 0.94,
+      "ask": 1.0,
+      "spread": 6.000000000000005,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-04",
+      "prob": 0.985,
+      "bid": 0.97,
+      "ask": 1.0,
+      "spread": 3.0000000000000027,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-05",
+      "prob": 0.975,
+      "bid": 0.95,
+      "ask": 1.0,
+      "spread": 5.000000000000004,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-06",
+      "prob": 0.955,
+      "bid": 0.95,
+      "ask": 0.96,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-07",
+      "prob": 0.975,
+      "bid": 0.95,
+      "ask": 1.0,
+      "spread": 5.000000000000004,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-08",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 55
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-12",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-13",
+      "prob": 0.995,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-16",
+      "prob": 0.995,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-17",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 2
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-18",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 5
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-19",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-20",
+      "prob": 0.995,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-22",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.3",
+      "date": "2026-05-24",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 1
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-14",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 50
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-15",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.05,
+      "spread": 5.0,
+      "volume": 4950
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-18",
+      "prob": 0.02,
+      "bid": 0.0,
+      "ask": 0.04,
+      "spread": 4.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-19",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.02,
+      "spread": 2.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-20",
+      "prob": 0.025,
+      "bid": 0.0,
+      "ask": 0.05,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-21",
+      "prob": 0.015,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-22",
+      "prob": 0.395,
+      "bid": 0.0,
+      "ask": 0.79,
+      "spread": 79.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-23",
+      "prob": 0.025,
+      "bid": 0.0,
+      "ask": 0.05,
+      "spread": 5.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T1.0",
+      "date": "2026-05-24",
+      "prob": 0.015,
+      "bid": 0.0,
+      "ask": 0.03,
+      "spread": 3.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "date": "2026-05-15",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 4214
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "date": "2026-05-16",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "date": "2026-05-17",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "date": "2026-05-18",
+      "prob": 0.005,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "date": "2026-05-23",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPICORE-26JUL-T1.0",
+      "date": "2026-05-24",
+      "prob": 0.01,
+      "bid": 0.0,
+      "ask": 0.01,
+      "spread": 1.0,
+      "volume": 4
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.9",
+      "date": "2026-05-23",
+      "prob": 0.02,
+      "bid": 0.01,
+      "ask": 0.05,
+      "spread": 4.0,
+      "volume": 1
+    },
+    {
+      "marketId": "KXECONSTATCPI-26MAY-T0.9",
+      "date": "2026-05-24",
+      "prob": 0.030000000000000002,
+      "bid": 0.01,
+      "ask": 0.05,
+      "spread": 4.0,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-11",
+      "prob": 0.89,
+      "bid": 0.82,
+      "ask": 0.91,
+      "spread": 9.000000000000007,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-12",
+      "prob": 0.82,
+      "bid": 0.81,
+      "ask": 0.89,
+      "spread": 7.9999999999999964,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-13",
+      "prob": 0.865,
+      "bid": 0.82,
+      "ask": 0.91,
+      "spread": 9.000000000000007,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-14",
+      "prob": 0.86,
+      "bid": 0.84,
+      "ask": 0.88,
+      "spread": 4.0000000000000036,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-15",
+      "prob": 0.88,
+      "bid": 0.82,
+      "ask": 0.89,
+      "spread": 7.000000000000006,
+      "volume": 7
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-16",
+      "prob": 0.89,
+      "bid": 0.82,
+      "ask": 0.88,
+      "spread": 6.000000000000005,
+      "volume": 2
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-17",
+      "prob": 0.85,
+      "bid": 0.82,
+      "ask": 0.88,
+      "spread": 6.000000000000005,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-18",
+      "prob": 0.79,
+      "bid": 0.76,
+      "ask": 0.86,
+      "spread": 9.999999999999998,
+      "volume": 16
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-19",
+      "prob": 0.84,
+      "bid": 0.76,
+      "ask": 0.86,
+      "spread": 9.999999999999998,
+      "volume": 147
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-20",
+      "prob": 0.8200000000000001,
+      "bid": 0.77,
+      "ask": 0.87,
+      "spread": 9.999999999999998,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-21",
+      "prob": 0.9,
+      "bid": 0.83,
+      "ask": 0.91,
+      "spread": 8.000000000000007,
+      "volume": 9
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-22",
+      "prob": 0.83,
+      "bid": 0.82,
+      "ask": 0.91,
+      "spread": 9.000000000000007,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-23",
+      "prob": 0.81,
+      "bid": 0.86,
+      "ask": 0.89,
+      "spread": 3.0000000000000027,
+      "volume": 6
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-24",
+      "prob": 0.89,
+      "bid": 0.82,
+      "ask": 0.89,
+      "spread": 7.000000000000006,
+      "volume": 129
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-25",
+      "prob": 0.85,
+      "bid": 0.85,
+      "ask": 0.94,
+      "spread": 8.999999999999996,
+      "volume": 9
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-26",
+      "prob": 0.93,
+      "bid": 0.87,
+      "ask": 0.94,
+      "spread": 6.999999999999995,
+      "volume": 38
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-27",
+      "prob": 0.93,
+      "bid": 0.85,
+      "ask": 0.93,
+      "spread": 8.000000000000007,
+      "volume": 5
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-28",
+      "prob": 0.97,
+      "bid": 0.9,
+      "ask": 0.97,
+      "spread": 6.999999999999995,
+      "volume": 20
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-29",
+      "prob": 0.92,
+      "bid": 0.92,
+      "ask": 0.95,
+      "spread": 2.9999999999999916,
+      "volume": 109
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-04-30",
+      "prob": 0.95,
+      "bid": 0.93,
+      "ask": 0.95,
+      "spread": 1.9999999999999907,
+      "volume": 4
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-01",
+      "prob": 0.98,
+      "bid": 0.95,
+      "ask": 0.98,
+      "spread": 3.0000000000000027,
+      "volume": 796
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-02",
+      "prob": 0.98,
+      "bid": 0.98,
+      "ask": 0.99,
+      "spread": 1.0000000000000009,
+      "volume": 37
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-03",
+      "prob": 0.965,
+      "bid": 0.94,
+      "ask": 0.99,
+      "spread": 5.000000000000004,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-04",
+      "prob": 0.98,
+      "bid": 0.97,
+      "ask": 0.98,
+      "spread": 1.0000000000000009,
+      "volume": 25
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-05",
+      "prob": 0.97,
+      "bid": 0.96,
+      "ask": 0.98,
+      "spread": 2.0000000000000018,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-06",
+      "prob": 0.98,
+      "bid": 0.97,
+      "ask": 0.98,
+      "spread": 1.0000000000000009,
+      "volume": 2
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-07",
+      "prob": 0.99,
+      "bid": 0.93,
+      "ask": 1.0,
+      "spread": 6.999999999999995,
+      "volume": 326
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-08",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 51
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-12",
+      "prob": 0.95,
+      "bid": 0.94,
+      "ask": 1.0,
+      "spread": 6.000000000000005,
+      "volume": 21
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-13",
+      "prob": 0.97,
+      "bid": 0.94,
+      "ask": 1.0,
+      "spread": 6.000000000000005,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-14",
+      "prob": 0.98,
+      "bid": 0.96,
+      "ask": 1.0,
+      "spread": 4.0000000000000036,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-15",
+      "prob": 0.995,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-17",
+      "prob": 0.995,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-18",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-19",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 1
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-20",
+      "prob": 0.995,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 0
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-22",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 3
+    },
+    {
+      "marketId": "KXCPI-26MAY-T-0.2",
+      "date": "2026-05-24",
+      "prob": 0.99,
+      "bid": 0.99,
+      "ask": 1.0,
+      "spread": 1.0000000000000009,
+      "volume": 1
+    }
+  ],
+  "calendar_events": [
+    {
+      "date": "2026-05-27",
+      "label": "CPI m/m",
+      "type": "cpi",
+      "detail": "CPI m/m",
+      "impact": "High",
+      "title": "CPI m/m",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-27",
+      "label": "CPI y/y",
+      "type": "cpi",
+      "detail": "CPI y/y",
+      "impact": "High",
+      "title": "CPI y/y",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-27",
+      "label": "Official Cash Rate",
+      "type": "macro",
+      "detail": "Official Cash Rate",
+      "impact": "High",
+      "title": "Official Cash Rate",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-27",
+      "label": "RBNZ Monetary Policy Statement",
+      "type": "macro",
+      "detail": "RBNZ Monetary Policy Statement",
+      "impact": "High",
+      "title": "RBNZ Monetary Policy Statement",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-27",
+      "label": "RBNZ Press Conference",
+      "type": "macro",
+      "detail": "RBNZ Press Conference",
+      "impact": "High",
+      "title": "RBNZ Press Conference",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-27",
+      "label": "RBNZ Rate Statement",
+      "type": "macro",
+      "detail": "RBNZ Rate Statement",
+      "impact": "High",
+      "title": "RBNZ Rate Statement",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-27",
+      "label": "Trimmed Mean CPI m/m",
+      "type": "cpi",
+      "detail": "Trimmed Mean CPI m/m",
+      "impact": "High",
+      "title": "Trimmed Mean CPI m/m",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-28",
+      "label": "Core PCE Price Index m/m",
+      "type": "cpi",
+      "detail": "Core PCE Price Index m/m",
+      "impact": "High",
+      "title": "Core PCE Price Index m/m",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-28",
+      "label": "Prelim GDP q/q",
+      "type": "gdp",
+      "detail": "Prelim GDP q/q",
+      "impact": "High",
+      "title": "Prelim GDP q/q",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-29",
+      "label": "BOE Gov Bailey Speaks",
+      "type": "macro",
+      "detail": "BOE Gov Bailey Speaks",
+      "impact": "High",
+      "title": "BOE Gov Bailey Speaks",
+      "is_fed": false,
+      "is_macro": true
+    },
+    {
+      "date": "2026-05-29",
+      "label": "GDP m/m",
+      "type": "gdp",
+      "detail": "GDP m/m",
+      "impact": "High",
+      "title": "GDP m/m",
+      "is_fed": false,
+      "is_macro": true
+    }
+  ],
+  "source": "kalshi_live",
+  "series_ticker": "multi",
+  "shelves": {
+    "Economics": 16,
+    "Politics": 16,
+    "World": 16
+  },
+  "macro_markets": 16,
+  "fetched_at": "2026-05-24T16:05:06.939721+00:00"
+}

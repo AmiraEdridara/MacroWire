@@ -1,0 +1,21 @@
+node_modules
+dist
+.DS_Store
+.local/
+.venv/
+.claude/settings.local.json
+cloudflared.deb
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+analytics/output/
+analytics/.venv/
+analytics/data/ff_calendar.csv
+
+# Local / secrets
+backend/.env
+backend/secrets/
+*.pem

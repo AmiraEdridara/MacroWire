@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>MacroWire</title>
+  <desc>Monogram M with a rising macro-event spark, sepia on a cream tile.</desc>
+
+  <!-- tile background: solid so the mark reads on light and dark browser tabs -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#F4ECDB" stroke="#E2D4BC" stroke-width="1.5"/>
+
+  <!-- monogram M, drawn as strokes so it never depends on a font being installed -->
+  <polyline points="13,46 13,20 26,37 39,20 39,46"
+            fill="none" stroke="#7A4F2D" stroke-width="7.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- rising spark off the top-right, ending in a red event tip -->
+  <polyline points="39,38 47,29 55,18"
+            fill="none" stroke="#C4A882" stroke-width="5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="55" cy="18" r="4" fill="#A63D2F"/>
+</svg>

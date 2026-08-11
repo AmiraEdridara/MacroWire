@@ -1,0 +1,16 @@
+[
+  {
+    "id": "4f23ccf5-6d5f-45bd-9c51-db2fd19b3bc5",
+    "email": "test@example.com",
+    "created_at": "2026-05-26T18:35:26.207584+00:00",
+    "watchlist": [
+      "KXTEST"
+    ],
+    "alert_moves": true,
+    "alert_pre_release": true,
+    "digest_enabled": true,
+    "digest_hour": 7,
+    "move_threshold_pp": 5.0,
+    "updated_at": "2026-05-26T18:35:26.207599+00:00"
+  }
+]
